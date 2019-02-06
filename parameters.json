@@ -1,0 +1,24 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2014-04-01-preview/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "administratorLogin": {
+      "value": "testsandbox"
+    },
+    "administratorLoginPassword": {
+      "value": "your-password"
+    },
+    "serverName": {
+      "value": "your-server-name"
+    },
+    "env": {
+      "value": "test-sandbox"
+    },
+    "dbName": {
+      "value": "test"
+    },
+    "teamName": {
+      "value": "Software Engineering"
+    }
+  }
+}
